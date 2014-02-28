@@ -1,0 +1,65 @@
+body{
+	font-family:  Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+
+.jumbotron{
+	background-image: url('../images/background-wood.jpg');
+	opacity: 0.9;
+}
+
+.container h1{
+	color: white;
+}
+
+.social-link{
+	margin-left: 20px;
+}
+
+.social-link {
+  margin-top: 20px;
+}
+
+.social-link {
+  display: block;
+  margin: auto;
+  color: #fff;
+  border-radius: 1000px;
+  width: 75px;
+  height: 75px;
+  font-size: 40px;
+  padding-top: 8px;
+  text-align: center;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+a.social-link:hover,a.social-link:active,a.social-link:focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: .8;
+}
+
+.text{
+  font-size: 20px;
+}
+
+/**
+*	colours for social icons. can change individual 
+*	colour in the future
+*/
+#github{
+	background-color: lightblue;
+}
+
+#mail{
+	background-color: lightblue;
+}
+
+#linkedin{
+	background-color: lightblue;
+}

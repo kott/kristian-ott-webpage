@@ -27,5 +27,4 @@ map "/resume" do
     File.open('public/resume.pdf', File::RDONLY)
   ]
 }
-
 end

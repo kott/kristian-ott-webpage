@@ -7,15 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Kristian Ott" content="">
 
-
-
     <title>Kristian Ott</title>
 	
     <!-- font awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
-	  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
     <!-- JQUERY -->
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
@@ -23,7 +21,7 @@
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
-	  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -31,9 +29,13 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-     <!-- Site Specific -->
-     <script src="js/site.js"></script>
-     <link rel="stylesheet" href="css/site.css" />
+    <!-- Leaflet Styles & JS -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!-- Site Specific -->
+    <script src="js/site.js"></script>
+    <link rel="stylesheet" href="css/site.css" />
 
   </head>
 
@@ -42,55 +44,69 @@
     <!-- Main jumbotron  -->
     <div class="jumbotron">
       <div class="container text-center">
-      	<img class="img-circle" src="images/profile.jpg" width="255px" />
+      	<img class="img-circle profile-img" src="images/profile.jpg" width="255px" />
         <h1>Kristian Ott</h1>
       </div>
     </div>
 
     <div class="container">
-
       <div class="col-md-8 col-md-offset-2">
         <div class="row">
 
-        	<div class="col-md-4">
+        	<div class="col-md-4 col-xs-4">
 	           <a id="github" href="https://www.github.com/kott" title="Github: kott" alt="github: kott" class="social-link" >
 	           		<i class="fa fa-github"></i>
 	           </a>
 	       </div>
 
-	       <div class="col-md-4">
+	       <div class="col-md-4 col-xs-4">
 	           <a id="mail" href="mailto:ott.kristian@gmail.com" title="Mail: ott.kristian@gmail.com" alt="email" class="social-link">
 	           		<i class="fa fa-envelope"></i>
 	           </a>
 	       </div>
 
-	       <div class="col-md-4">
+	       <div class="col-md-4 col-xs-4">
 	           <a id="linkedin" href="http://www.linkedin.com/pub/kristian-ott/39/461/189" title="Linkedin" alt="linkedin" class="social-link">
 	           		<i class="fa fa-linkedin"></i>
 	           </a>
 	       </div>
-
         </div>
 
        
         
         <div class="row text">
-        	<div class="col-md-12">
-        		<hr />
-    			  <h2>About Me</h2> 
-            <p>
-              I'm a recent Mathematics &amp; Computer Science grad. I'm currently working at the <a href="http://imdc.ca">IMDC</a> as a software developer working on the <a href="http://livedescribe.com">LiveDescribe</a> project. My interests lie within web development, user centered design, and anything to do with audio/video.
-            </p>
+            <hr />
+        	<div class="col-md-8">
+        		
+    			<h2>About Me</h2> 
 
+                <p>
+                    I'm a Torontonian living in the city of Kiel, Germany. To fulfill my interests in software and technology, I am earning my masters degree in Informatics at Kiel's University of Applied Sciences.
+                </p>
+               
+                <p>
+                   I am a former member of the <a href="http://imdc.ca">IMDC</a> where I was involved in developing technology to aid the sensory impaired with gaining access to media. My interests lie within web development, data mining, and anything to do with audio/video.
+                </p>
       		</div>
+
+            <div class="col-md-4">
+                <h4>Current Location</h4>
+                <div id="map"></div>
+            </div>
+
        	</div>
         
        	<div class="row text">
-        	<div class="col-md-12">
-        		<hr />
-            <h2>Resume</h2> 
-				    <p>You can check out my resume <a href="/resume" class="">here</a>. I'll will be trying to keep it as up to date as possible.</p>
+            <hr />
+        	<div class="col-md-6">
+                <h2>Contact</h2> 
+			    <p>I can best be reached by <a href="mailto:ott.kristian@gmail.com" alt="email">Email</a>. My other social links are available at the top of this page. &#9786;</p>
       		</div>
+
+            <div class="col-md-6">
+                <h2>Resume</h2> 
+                <p>You can check out my resume <a href="/resume" class="">here</a>. I'll will be trying to keep it as up to date as possible.</p>
+            </div>
        	</div>
 
 

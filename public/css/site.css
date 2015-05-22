@@ -63,3 +63,13 @@ a.social-link:hover,a.social-link:active,a.social-link:focus {
 #linkedin{
 	background-color: lightblue;
 }
+
+.profile-img {
+    border: solid;
+    border-width: thick;
+}
+
+#map { 
+    height: 240px;
+    width: 340px;
+}

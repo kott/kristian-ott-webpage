@@ -3,7 +3,7 @@ Personal Webpage
 
 About
 -----
-This is just a static webpage made with Ruby / Rack and is currently hosted on Heroku.
+This is just a static webpage made with Ruby/Rack.
 
 Info
 ----
